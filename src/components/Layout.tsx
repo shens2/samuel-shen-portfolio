@@ -28,8 +28,7 @@ function Layout() {
 
       <footer className="footer">
         <div className="footer-text">
-          <p>© 2025 Samuel Shen. Images © Samuel Shen &amp; respective companies</p>
-          <p className="footer-text--muted">Handcrafted with Figma</p>
+          <p>© 2026 Samuel Shen. Vibe coded with Claude Code</p>
         </div>
         <nav className="social-links">
           <a href="https://www.linkedin.com/in/shensamuel/" target="_blank" rel="noreferrer">
