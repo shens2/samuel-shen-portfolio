@@ -94,19 +94,19 @@ function About() {
             description="Designed AI-powered and search experiences across Word, Excel, PowerPoint, and Copilot — including PowerPoint's Narrative Builder and unified search across Mac, iOS, and Windows."
           />
           <TimelineEntry
-            logo={logoUW}
-            org="University of Washington"
-            start="2015"
-            end="2017"
-            description="Master of Science, Human-Centered Design &amp; Engineering"
-          />
-          <TimelineEntry
             logo={logoGoogle}
             org="Google"
             role="UX Design Intern"
             start="Jun 2016"
             end="Sep 2016"
             description="Designed the post-purchase experience for Product Listing Ads on the Google Shopping team."
+          />
+          <TimelineEntry
+            logo={logoUW}
+            org="University of Washington"
+            start="2015"
+            end="2017"
+            description="Master of Science, Human-Centered Design &amp; Engineering"
           />
           <TimelineEntry
             logo={logoUW}
