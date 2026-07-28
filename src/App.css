@@ -20,13 +20,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  padding: 4px 40px;
+  gap: 4px;
+  padding: 8px;
   border-radius: 40px;
-  background: var(--color-nav-bg);
-  backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(35px);
-  font-size: 16px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
   letter-spacing: -0.08px;
   text-align: center;
   white-space: nowrap;
@@ -35,14 +35,15 @@
 .nav-item {
   position: relative;
   display: inline-block;
-  /* Padding (rather than the nav's own) so each link's tap target is
-     closer to the ~44px touch-target guideline without changing the
-     pill's visual size. */
-  padding: 12px 0;
+  padding: 12px 24px;
+  border-radius: 999px;
   font-weight: 500;
+  color: var(--color-text-muted);
 }
 
 .nav-item--current {
+  background: var(--color-card-bg);
+  color: var(--color-text);
   font-weight: 700;
 }
 
