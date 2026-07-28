@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import landlordPortalVideo from '../assets/videos/landlord-portal.mp4'
 import narrativeBuilderVideo from '../assets/videos/narrative-builder.mp4'
 import templatePicker from '../assets/images/template-picker.gif'
-import addTopic from '../assets/images/add-topic.png'
+import addTopicVideo from '../assets/videos/add-topic.mp4'
 import landlordPortalPoster from '../assets/images/landlord-portal-poster.jpg'
 import narrativeBuilderPoster from '../assets/images/narrative-builder-poster.jpg'
 import searchOverview from '../assets/images/search-overview.png'
@@ -147,7 +147,15 @@ function Home() {
             <img className="shadowed" src={templatePicker} alt="Narrative Builder template picker" />
           </div>
           <div className="card card--pad-32">
-            <img src={addTopic} alt="Adding a topic to Narrative Builder" />
+            <video
+              className="shadowed"
+              src={addTopicVideo}
+              aria-label="Adding a topic to Narrative Builder"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
           </div>
         </div>
       </section>
