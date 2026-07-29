@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import landlordPortalVideo from '../assets/videos/landlord-portal.mp4'
+import swayAuthoringVideo from '../assets/videos/sway-authoring.mp4'
 import narrativeBuilderVideo from '../assets/videos/narrative-builder.mp4'
 import templatePicker from '../assets/images/template-picker.gif'
 import addTopicVideo from '../assets/videos/add-topic.mp4'
@@ -211,6 +212,28 @@ function Home() {
             <img src={iosSearch1} alt="Office iOS in-document search" />
             <img src={iosSearch2} alt="Office iOS search building experience" />
             <img src={iosSearch3} alt="Office iOS smart lookup" />
+          </div>
+        </div>
+      </section>
+
+      <section className="feature">
+        <div className="row row--split">
+          <div className="feature-text">
+            <h2>Sway - authoring experience</h2>
+            <p className="feature-meta">Microsoft&nbsp;&nbsp;·&nbsp;&nbsp;2018</p>
+          </div>
+          <p className="feature-desc">
+            Led design for the content authoring experience for Microsoft Sway, the storyline
+            canvas where people drag in text, images, and video and Sway's design engine
+            automatically arranges everything into a responsive, share-ready layout with no
+            manual design work required.
+          </p>
+        </div>
+        <div className="row">
+          <div className="card card--pad-0">
+            <div className="video-frame" style={{ aspectRatio: '16 / 9' }}>
+              <video src={swayAuthoringVideo} autoPlay loop muted playsInline />
+            </div>
           </div>
         </div>
       </section>
