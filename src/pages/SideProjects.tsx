@@ -1,3 +1,4 @@
+import googlePlayBadge from '../assets/images/google-play-badge.png'
 import dosetteIcon from '../assets/images/dosette-icon.png'
 import dosetteGallery from '../assets/images/dosette-gallery.png'
 import pianoScreenshot from '../assets/images/piano-screenshot.png'
@@ -19,7 +20,7 @@ function SideProjects() {
               <img className="project-icon" src={dosetteIcon} alt="" />
               <h2>Dosette</h2>
             </div>
-            <p className="feature-meta status--in-progress">In progress</p>
+            <p className="feature-meta status--deployed">Published</p>
           </div>
           <div className="feature-desc">
             <p>
@@ -28,9 +29,18 @@ function SideProjects() {
               adherence history, and fast medication entry, in light or dark.
             </p>
             <p>
-              I beta tested it for two weeks with 21 people, and it's currently waiting on
-              Google's organization approval before it can ship.
+              I beta tested it for two weeks with 21 people, which turned out to be the easy
+              part. Because Dosette is a health app, Google required the account to be verified
+              as an organization, so I applied for a D-U-N-S number and went through full
+              business verification just to be allowed to publish.
             </p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.dosette.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="store-badge" src={googlePlayBadge} alt="Get it on Google Play" />
+            </a>
           </div>
         </div>
         <div className="row">

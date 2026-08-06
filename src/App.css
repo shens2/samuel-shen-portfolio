@@ -232,6 +232,10 @@
   cursor: pointer;
 }
 
+.store-badge {
+  width: 200px;
+}
+
 /* Stats */
 
 .stat-group {
